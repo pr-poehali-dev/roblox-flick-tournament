@@ -28,7 +28,7 @@ const Index = () => {
       id: 3,
       name: 'Pro League Season 1',
       date: '1 февраля 2026',
-      prize: '200₽',
+      prize: '130₽',
       status: 'Скоро',
       type: 'online'
     }
