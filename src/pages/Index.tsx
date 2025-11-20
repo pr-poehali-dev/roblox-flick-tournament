@@ -90,17 +90,8 @@ const Index = () => {
       <main className="container mx-auto px-4 py-8">
         {activeTab === 'home' && (
           <div className="space-y-12 animate-slide-up">
-            <section className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-neon-cyan/10 via-neon-purple/10 to-neon-pink/10 border border-neon-cyan/30">
-              <div className="aspect-video w-full bg-black rounded-t-2xl overflow-hidden">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0"
-                  title="Live Stream"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div className="relative z-10 p-12">
+            <section className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-neon-cyan/10 via-neon-purple/10 to-neon-pink/10 p-12 border border-neon-cyan/30">
+              <div className="relative z-10">
                 <Badge className="mb-4 bg-neon-cyan/20 text-neon-cyan border-neon-cyan">
                   <Icon name="Radio" size={16} className="mr-1 animate-pulse" />
                   LIVE STREAM
@@ -122,8 +113,8 @@ const Index = () => {
                   </Button>
                 </div>
               </div>
-              <div className="absolute top-0 right-0 w-96 h-96 bg-neon-cyan/20 rounded-full blur-3xl -z-10"></div>
-              <div className="absolute bottom-0 left-0 w-96 h-96 bg-neon-purple/20 rounded-full blur-3xl -z-10"></div>
+              <div className="absolute top-0 right-0 w-96 h-96 bg-neon-cyan/20 rounded-full blur-3xl"></div>
+              <div className="absolute bottom-0 left-0 w-96 h-96 bg-neon-purple/20 rounded-full blur-3xl"></div>
             </section>
 
             <section>
