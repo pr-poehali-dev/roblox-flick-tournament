@@ -20,7 +20,7 @@ const Index = () => {
       id: 2,
       name: 'Winter Cup',
       date: '15 января 2026',
-      prize: '200₽',
+      prize: '270₽',
       status: 'Скоро',
       type: 'online'
     },
