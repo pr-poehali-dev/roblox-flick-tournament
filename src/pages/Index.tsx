@@ -10,8 +10,8 @@ const Index = () => {
   const tournaments = [
     {
       id: 1,
-      name: 'Flick Championship 2024',
-      date: '25 декабря 2024',
+      name: 'Flick Championship 2025',
+      date: '5 декабря 2025',
       prize: '200₽',
       status: 'Регистрация открыта',
       type: 'online'
@@ -19,7 +19,7 @@ const Index = () => {
     {
       id: 2,
       name: 'Winter Cup',
-      date: '15 января 2025',
+      date: '15 января 2026',
       prize: '200₽',
       status: 'Скоро',
       type: 'online'
@@ -27,7 +27,7 @@ const Index = () => {
     {
       id: 3,
       name: 'Pro League Season 1',
-      date: '1 февраля 2025',
+      date: '1 февраля 2026',
       prize: '200₽',
       status: 'Скоро',
       type: 'online'
@@ -106,7 +106,7 @@ const Index = () => {
                   LIVE STREAM
                 </Badge>
                 <h2 className="text-6xl font-rajdhani font-bold mb-4 neon-glow">
-                  FLICK CHAMPIONSHIP 2024
+                  FLICK CHAMPIONSHIP 2025
                 </h2>
                 <p className="text-xl text-white/80 mb-6 max-w-2xl">
                   Присоединяйся к самому масштабному турниру по Flick. Призовой фонд 200₽!
