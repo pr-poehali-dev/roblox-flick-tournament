@@ -12,7 +12,7 @@ const Index = () => {
       id: 1,
       name: 'Flick Championship 2024',
       date: '25 декабря 2024',
-      prize: '50,000₽',
+      prize: '200₽',
       participants: 64,
       status: 'Регистрация открыта',
       type: 'online'
@@ -21,7 +21,7 @@ const Index = () => {
       id: 2,
       name: 'Winter Cup',
       date: '15 января 2025',
-      prize: '30,000₽',
+      prize: '200₽',
       participants: 32,
       status: 'Скоро',
       type: 'online'
@@ -30,7 +30,7 @@ const Index = () => {
       id: 3,
       name: 'Pro League Season 1',
       date: '1 февраля 2025',
-      prize: '100,000₽',
+      prize: '200₽',
       participants: 128,
       status: 'Скоро',
       type: 'online'
@@ -53,9 +53,9 @@ const Index = () => {
   ];
 
   const prizes = [
-    { place: '1 место', amount: '50,000₽', icon: 'Trophy' },
-    { place: '2 место', amount: '25,000₽', icon: 'Medal' },
-    { place: '3 место', amount: '15,000₽', icon: 'Award' }
+    { place: '1 место', amount: '100₽', icon: 'Trophy' },
+    { place: '2 место', amount: '60₽', icon: 'Medal' },
+    { place: '3 место', amount: '40₽', icon: 'Award' }
   ];
 
   return (
@@ -112,7 +112,7 @@ const Index = () => {
                   FLICK CHAMPIONSHIP 2024
                 </h2>
                 <p className="text-xl text-white/80 mb-6 max-w-2xl">
-                  Присоединяйся к самому масштабному турниру по Flick. Призовой фонд 50,000₽!
+                  Присоединяйся к самому масштабному турниру по Flick. Призовой фонд 200₽!
                 </p>
                 <div className="flex gap-4">
                   <Button size="lg" className="bg-gradient-cyber hover:opacity-90 font-rajdhani text-lg">
