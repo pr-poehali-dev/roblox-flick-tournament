@@ -13,7 +13,6 @@ const Index = () => {
       name: 'Flick Championship 2024',
       date: '25 декабря 2024',
       prize: '200₽',
-      participants: 64,
       status: 'Регистрация открыта',
       type: 'online'
     },
@@ -22,7 +21,6 @@ const Index = () => {
       name: 'Winter Cup',
       date: '15 января 2025',
       prize: '200₽',
-      participants: 32,
       status: 'Скоро',
       type: 'online'
     },
@@ -31,18 +29,17 @@ const Index = () => {
       name: 'Pro League Season 1',
       date: '1 февраля 2025',
       prize: '200₽',
-      participants: 128,
       status: 'Скоро',
       type: 'online'
     }
   ];
 
   const leaderboard = [
-    { rank: 1, username: 'FlickMaster', rating: 2450, wins: 127 },
-    { rank: 2, username: 'ProShooter', rating: 2380, wins: 115 },
-    { rank: 3, username: 'AimGod', rating: 2340, wins: 108 },
-    { rank: 4, username: 'QuickFlick', rating: 2290, wins: 98 },
-    { rank: 5, username: 'SniperElite', rating: 2250, wins: 92 }
+    { rank: 1, username: 'FlickMaster', rating: 2450 },
+    { rank: 2, username: 'ProShooter', rating: 2380 },
+    { rank: 3, username: 'AimGod', rating: 2340 },
+    { rank: 4, username: 'QuickFlick', rating: 2290 },
+    { rank: 5, username: 'SniperElite', rating: 2250 }
   ];
 
   const schedule = [
@@ -161,10 +158,6 @@ const Index = () => {
                           <span className="text-white/60">Призовой фонд:</span>
                           <span className="text-neon-cyan font-bold text-xl">{tournament.prize}</span>
                         </div>
-                        <div className="flex justify-between items-center">
-                          <span className="text-white/60">Участников:</span>
-                          <span className="text-white font-bold">{tournament.participants}</span>
-                        </div>
                         <Button className="w-full bg-gradient-cyber hover:opacity-90 font-rajdhani">
                           Зарегистрироваться
                         </Button>
@@ -195,7 +188,6 @@ const Index = () => {
                           </span>
                           <div>
                             <p className="font-bold text-white">{player.username}</p>
-                            <p className="text-sm text-white/60">{player.wins} побед</p>
                           </div>
                         </div>
                         <Badge className="bg-neon-cyan/20 text-neon-cyan border-neon-cyan font-rajdhani text-lg">
